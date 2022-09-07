@@ -21,11 +21,10 @@
         <a href = "login.html" style="float: right;"><ins>เข้าสู่ระบบ</ins></a>
     </form>
     <ul>
-        <li><a href = "post.php?id=1"><ins>กระทู้เรื่องที่ 1</ins></a></li>
-        <li><a href = "post.php?id=2"><ins>กระทู้เรื่องที่ 2</ins></a></li>
-        <li><a href = "post.php?id=3"><ins>กระทู้เรื่องที่ 3</ins></a></li>
-        <li><a href = "post.php?id=4"><ins>กระทู้เรื่องที่ 4</ins></a></li>
-        <li><a href = "post.php?id=5"><ins>กระทู้เรื่องที่ 5</ins></a></li>
+        <?php 
+            for($i = 1 ; $i <= 10 ; $i++)
+                echo "<li><a href = post.php?id=$i>กระทู้ $i</a></li>";
+        ?>
     </ul>         
 </body>
 </html>

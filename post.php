@@ -9,11 +9,17 @@
 <body>
 <h1 align = "center">Webboard Thanawat</h1><hr>
     <p align = "center">ต้องการดูกระทู้หมายเลข <?php echo $_GET["id"]; ?></p>
+    <p align = "center"><?php 
+        if(($_GET["id"])%2 == 0)
+            echo "เป็นกระทู้หมายเลขคู่";
+        else
+            echo "เป็นกระทู้หมายเลขคี่";
+    ?></p>
     <table style="border:2px solid black; width:40%" align="center">
         <tr><td style="background-color:#6CD2FE;">แสดงความคิดเห็น</td></tr>
         <tr><td><textarea name="comment" cols="85" rows="10"></textarea></tr></td>
         <tr><td align="center"><input type="submit" value="ส่งข้อความ"></td></tr>
     </table>
-    <p style="text-align: center;"><a href = "index.html"><ins>กลับไปหน้าหลัก</ins></a> </p>
+    <p style="text-align: center;"><a href = "index.php"><ins>กลับไปหน้าหลัก</ins></a> </p>
 </body>
 </html>
