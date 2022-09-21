@@ -60,8 +60,7 @@
             if($_SESSION['role']=='a'){
                 echo "&nbsp;&nbsp;&nbsp;&nbsp;<a href = delete.php?id=$i>ลบ</a>";
                 }
-            }
-            echo "</li>";
+            echo "</li>";}
         ?>
     </ul>         
 </body>
