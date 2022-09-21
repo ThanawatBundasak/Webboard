@@ -17,7 +17,7 @@
     ?></p>
     <table style="border:2px solid black; width:40%" align="center">
         <tr><td style="background-color:#6CD2FE;">แสดงความคิดเห็น</td></tr>
-        <tr><td><textarea name="comment" cols="85" rows="10"></textarea></tr></td>
+        <tr><td><textarea name="comment" cols="85" rows="10"></textarea></td></tr>
         <tr><td align="center"><input type="submit" value="ส่งข้อความ"></td></tr>
     </table>
     <p style="text-align: center;"><a href = "index.php"><ins>กลับไปหน้าหลัก</ins></a> </p>
