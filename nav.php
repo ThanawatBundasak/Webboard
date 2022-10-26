@@ -25,7 +25,7 @@
                     aria-expanded="false"><i class="bi bi-person-lines-fill"></i> <?php echo $_SESSION ["username"] ?></a>
                     <ul class="dropdown-menu" aria-labelledby="button1">
                         <li><a href="logout.php" class="dropdown-item">
-                            <i class="bi bi-person-lines-fill"></i> ออกจากระบบ
+                            <i class="bi bi-power"></i> ออกจากระบบ
                             </a>
                         </li>
                     </ul>
