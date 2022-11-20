@@ -11,7 +11,7 @@
     $sql="SELECT * FROM user where login='$login'";
     $result=$conn->query($sql);
     if($result->rowCount()==1){
-        $_SESSION['add_login']=['error'];
+        $_SESSION['add_login']='error';
     }else{
         $sql1 = "INSERT INTO user (login, password, name, gender, email, role) VALUE ('$login','$password','$name','$gender','$email','m')";
         $conn->exec($sql1);
